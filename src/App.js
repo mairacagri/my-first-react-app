@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import scores from "./scores";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div>{scores}</div>//not sure if its right
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
